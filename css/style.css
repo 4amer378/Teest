@@ -1,0 +1,620 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 100%;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  background: #4d5061;
+}
+
+.Main-nav {
+  color: #ffffff;
+  font-family: "Oswald";
+  background: #30323D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  -webkit-box-shadow: 0 0 20px #000000;
+          box-shadow: 0 0 20px #000000;
+}
+
+.Main-nav .Names-site {
+  font-size: 40px;
+  margin: auto 50px;
+}
+
+.Main-nav .nav {
+  font-size: 40px;
+  margin: auto 50px;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  word-spacing: 20px;
+}
+
+.Main-nav .nav .Main-site, .Main-nav .nav .About-us, .Main-nav .nav .support {
+  word-spacing: 0px;
+  color: #ffffff;
+}
+
+.Main-nav .nav .Main-site:hover, .Main-nav .nav .About-us:hover, .Main-nav .nav .support:hover {
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  color: #c1c1c1;
+}
+
+.Main {
+  color: #ffffff;
+  margin: 50px auto;
+  width: 1016px;
+}
+
+.img {
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.img1 {
+  margin-left: 200px;
+  border: 5px solid #d8e064;
+  background: url("https://oberteich.ru/wp-content/uploads/2016/11/kafedr-sibor.jpg") no-repeat center center;
+  border-radius: 30px;
+  height: 400px;
+  width: 4500px;
+}
+
+.infa {
+  font-size: 20px;
+  position: absolute;
+  right: 150px;
+  top: 100px;
+  background: #d8e064;
+  border-radius: 30px;
+  height: 400px;
+  width: 300px;
+  padding: 25px;
+  color: #000000;
+  font-family: "Ubuntu";
+}
+
+.center-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+
+.Information {
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 25px;
+  font-family: "Roboto";
+  padding: 20px 30px;
+  margin-bottom: 50px;
+  background: #5c80bc;
+}
+
+.Information p {
+  margin-top: 30px;
+}
+
+.Information div {
+  margin-top: 30px;
+}
+
+.Main-text {
+  font-size: 50px;
+  font-family: "Oswald";
+}
+
+.Main-sight {
+  margin-top: -50px;
+  margin-bottom: 50px;
+  padding: 40px;
+  width: 1016px;
+  background: #425e8f;
+}
+
+.Main-sight p {
+  text-decoration: underline;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Oswald";
+}
+
+.sight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+  margin-top: 25px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+@-webkit-keyframes left-one {
+  0% {
+    padding-top: 310px;
+  }
+  100% {
+    padding-top: 10px;
+  }
+}
+
+@keyframes left-one {
+  0% {
+    padding-top: 310px;
+  }
+  100% {
+    padding-top: 10px;
+  }
+}
+
+.left {
+  background: #d8e064;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.903799)), color-stop(25%, rgba(0, 0, 0, 0.626488)), color-stop(52%, rgba(0, 0, 0, 0))), url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/%D0%9A%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B7%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%28%D1%80%D0%B0%D0%BD%D0%B5%D0%B5_%E2%80%94_%D0%9A%D0%B8%D1%80%D1%85%D0%B0_%D0%BA%D1%80%D0%B5%D1%81%D1%82%D0%B0%29%2C_1933_%D0%B3.jpg/796px-%D0%9A%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B7%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%28%D1%80%D0%B0%D0%BD%D0%B5%D0%B5_%E2%80%94_%D0%9A%D0%B8%D1%80%D1%85%D0%B0_%D0%BA%D1%80%D0%B5%D1%81%D1%82%D0%B0%29%2C_1933_%D0%B3.jpg") no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.903799) 0%, rgba(0, 0, 0, 0.626488) 25%, rgba(0, 0, 0, 0) 52%), url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/%D0%9A%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B7%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%28%D1%80%D0%B0%D0%BD%D0%B5%D0%B5_%E2%80%94_%D0%9A%D0%B8%D1%80%D1%85%D0%B0_%D0%BA%D1%80%D0%B5%D1%81%D1%82%D0%B0%29%2C_1933_%D0%B3.jpg/796px-%D0%9A%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B7%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%28%D1%80%D0%B0%D0%BD%D0%B5%D0%B5_%E2%80%94_%D0%9A%D0%B8%D1%80%D1%85%D0%B0_%D0%BA%D1%80%D0%B5%D1%81%D1%82%D0%B0%29%2C_1933_%D0%B3.jpg") no-repeat;
+  background-size: 300px 400px;
+  padding: 7px;
+  font-family: "Oswald";
+  font-size: 30px;
+  padding-top: 310px;
+  line-height: 30px;
+  border-radius: 30px;
+  height: 400px;
+  width: 250px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  overflow: hidden;
+  border: 5px solid #d8e064;
+}
+
+.left:hover {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  background: #d8e064;
+  color: #000000;
+  -webkit-animation-name: left-one;
+          animation-name: left-one;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.left:hover p {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  color: black;
+  text-decoration: none;
+}
+
+.left:hover p span {
+  color: #000000;
+}
+
+.left p {
+  color: rgba(0, 0, 0, 0);
+  font-size: 27px;
+}
+
+.left span {
+  color: #ffffff;
+  margin-right: -5px;
+}
+
+.center {
+  background-blend-mode: multiply;
+  background: black;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.903799)), color-stop(25%, rgba(0, 0, 0, 0.626488)), color-stop(52%, rgba(0, 0, 0, 0))), url("http://photos.wikimapia.org/p/00/00/18/77/72_big.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.903799) 0%, rgba(0, 0, 0, 0.626488) 25%, rgba(0, 0, 0, 0) 52%), url("http://photos.wikimapia.org/p/00/00/18/77/72_big.jpg");
+  padding: 7px;
+  font-family: "Oswald";
+  font-size: 30px;
+  padding-top: 310px;
+  line-height: 30px;
+  border-radius: 30px;
+  height: 400px;
+  width: 250px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  overflow: hidden;
+  border: 5px solid #d8e064;
+}
+
+.center:hover {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  background: #d8e064;
+  color: #000000;
+  -webkit-animation-name: left-one;
+          animation-name: left-one;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.center:hover p {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  color: black;
+  text-decoration: none;
+}
+
+.center:hover p span {
+  color: #000000;
+}
+
+.center p {
+  color: rgba(0, 0, 0, 0);
+  font-size: 25px;
+}
+
+.center span {
+  color: #ffffff;
+  margin-right: -5px;
+  font-size: 27px;
+}
+
+.right {
+  background: #d8e064;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.903799)), color-stop(25%, rgba(0, 0, 0, 0.626488)), color-stop(52%, rgba(0, 0, 0, 0))), url("https://www.tury.ru/img.php?gid=328638&pid=2444496&v=1200") no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.903799) 0%, rgba(0, 0, 0, 0.626488) 25%, rgba(0, 0, 0, 0) 52%), url("https://www.tury.ru/img.php?gid=328638&pid=2444496&v=1200") no-repeat;
+  background-size: 250px 400px;
+  padding: 7px;
+  font-family: "Oswald";
+  font-size: 30px;
+  padding-top: 310px;
+  line-height: 30px;
+  border-radius: 30px;
+  height: 400px;
+  width: 250px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  overflow: hidden;
+  border: 5px solid #d8e064;
+}
+
+.right:hover {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  background: #d8e064;
+  color: #000000;
+  -webkit-animation-name: left-one;
+          animation-name: left-one;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.right:hover p {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  color: black;
+  text-decoration: none;
+}
+
+.right:hover p span {
+  color: #000000;
+}
+
+.right p {
+  color: rgba(0, 0, 0, 0);
+  font-size: 27px;
+}
+
+.right span {
+  color: #ffffff;
+  margin-right: -5px;
+}
+
+.left2 {
+  background: #d8e064;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.903799)), color-stop(25%, rgba(0, 0, 0, 0.626488)), color-stop(52%, rgba(0, 0, 0, 0))), url("https://nesselbeck.ru/wp-content/uploads/2020/10/042.jpg") no-repeat center center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.903799) 0%, rgba(0, 0, 0, 0.626488) 25%, rgba(0, 0, 0, 0) 52%), url("https://nesselbeck.ru/wp-content/uploads/2020/10/042.jpg") no-repeat center center;
+  background-size: 1000px 600px;
+  padding: 7px;
+  font-family: "Oswald";
+  font-size: 30px;
+  padding-top: 310px;
+  line-height: 30px;
+  border-radius: 30px;
+  height: 400px;
+  width: 250px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  overflow: hidden;
+  border: 5px solid #d8e064;
+}
+
+.left2:hover {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  background: #d8e064;
+  color: #000000;
+  -webkit-animation-name: left-one;
+          animation-name: left-one;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.left2:hover p {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  color: black;
+  text-decoration: none;
+}
+
+.left2:hover p span {
+  color: #000000;
+}
+
+.left2 p {
+  color: rgba(0, 0, 0, 0);
+  font-size: 25px;
+}
+
+.left2 span {
+  color: #ffffff;
+  margin-right: -5px;
+  font-size: 27px;
+}
+
+.center2 {
+  background: #d8e064;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.903799)), color-stop(25%, rgba(0, 0, 0, 0.626488)), color-stop(52%, rgba(0, 0, 0, 0))), url("https://day-off39.ru/images/uploads/otdyh-kld-obl/otdyh-kld/dom-smotritelya-vysokogo-mosta/4.jpg") -300px 0 no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.903799) 0%, rgba(0, 0, 0, 0.626488) 25%, rgba(0, 0, 0, 0) 52%), url("https://day-off39.ru/images/uploads/otdyh-kld-obl/otdyh-kld/dom-smotritelya-vysokogo-mosta/4.jpg") -300px 0 no-repeat;
+  background-size: 700px 400px;
+  padding: 7px;
+  font-family: "Oswald";
+  font-size: 30px;
+  padding-top: 260px;
+  line-height: 30px;
+  border-radius: 30px;
+  border-radius: 30px;
+  height: 400px;
+  width: 250px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  overflow: hidden;
+  border: 5px solid #d8e064;
+}
+
+.center2:hover {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  background: #d8e064;
+  color: #000000;
+  -webkit-animation-name: left-one;
+          animation-name: left-one;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.center2:hover p {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  color: black;
+  text-decoration: none;
+}
+
+.center2:hover p span {
+  color: #000000;
+}
+
+.center2 p {
+  color: rgba(0, 0, 0, 0);
+  font-size: 27px;
+}
+
+.center2 span {
+  color: #ffffff;
+  margin-right: -5px;
+}
+
+.right2 {
+  background: #d8e064;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.903799)), color-stop(25%, rgba(0, 0, 0, 0.626488)), color-stop(52%, rgba(0, 0, 0, 0))), url("https://www.newkaliningrad.ru/upload/iblock/bbc/bbc1e9c278188e2e2664147617b2d3ce.jpg") -200px 0 no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.903799) 0%, rgba(0, 0, 0, 0.626488) 25%, rgba(0, 0, 0, 0) 52%), url("https://www.newkaliningrad.ru/upload/iblock/bbc/bbc1e9c278188e2e2664147617b2d3ce.jpg") -200px 0 no-repeat;
+  background-size: 600px 400px;
+  padding: 7px;
+  font-family: "Oswald";
+  font-size: 30px;
+  padding-top: 290px;
+  line-height: 30px;
+  border-radius: 30px;
+  height: 400px;
+  width: 250px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  overflow: hidden;
+  border: 5px solid #d8e064;
+}
+
+.right2:hover {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  background: #d8e064;
+  color: #000000;
+  -webkit-animation-name: left-one;
+          animation-name: left-one;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.right2:hover p {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  color: black;
+  text-decoration: none;
+}
+
+.right2:hover p span {
+  color: #000000;
+}
+
+.right2 p {
+  color: rgba(0, 0, 0, 0);
+  font-size: 27px;
+}
+
+.right2 span {
+  color: #ffffff;
+  margin-right: -5px;
+}
+
+.map {
+  margin-top: -50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #5c80bc;
+}
+
+.map .map-text {
+  font-size: 30px;
+  font-family: "Oswald";
+  line-height: 30px;
+  padding: 10px;
+}
+
+.mini-map {
+  border: 5px solid #d8e064;
+  margin: 10px;
+}
+
+footer {
+  height: 300px;
+  background: #30323D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #62667a;
+  line-height: 30px;
+  padding: 0px 100px;
+  padding-left: 300px;
+}
+
+footer span {
+  font-family: "Oswald";
+  font-size: 30px;
+}
+
+footer span a {
+  color: #62667a;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+footer span a:hover {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  color: #7a7f96;
+}
+
+footer div {
+  margin: 20px;
+  width: 400px;
+}
+/*# sourceMappingURL=style.css.map */
